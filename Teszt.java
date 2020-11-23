@@ -6,21 +6,21 @@
 
 /**
  *
- * @author Lacika
+ * @author Gábor Krisztián
  */
 public class Teszt {
     /**
      * @param args the command line arguments
      */
     
-     public static int kivonas(int x, int y){
-        int eredmeny=x-y;
+     public static int szorzas(int x, int y){
+        int eredmeny=x*y;
         return eredmeny;
 }
      public static void main(String[] args) {
         // TODO code application logic here
         int a=3;
         int b=2;
-        System.out.println(kivonas(a,b));
+        System.out.println(szorzas(a,b));
     }
 }
